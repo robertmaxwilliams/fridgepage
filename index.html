@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+<script type="text/javascript">
+  function resizeIframe(obj){
+     obj.style.height = 0;
+     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+</head>
+
+<html>
+<body style="background-color:lightgrey;">
+
+<h3>Fridge Contents:</h3>
+<h1>
+
+<iframe src="items.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';">
+    </iframe>
+
+
+
+</h1>
+
+
+
+
+<h1>
+<form action = "" method = "post">
+        <input type="submit" name="toggle" value="Turn on light" style="height:100px;width:200px" />
+    </form>
+
+    </h1>
+<br>
+<br>
+
+
+
+
+<img src="/tags.jpg" alt="Tags" width = "500">
+
+
+
+
+</body>
+</html>
+
